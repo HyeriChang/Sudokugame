@@ -7,7 +7,7 @@ Each state corresponds to a unique arrangement of numbers on the board, where em
 
 2.	Initial State:
 
-The initial state is the starting configuration of the Sudoku puzzle, given in the form of a 9x9 grid with some initial values and empty cells.
+The initial state is the starting configuration of the Sudoku puzzle, given as a 9x9 grid with some initial values and empty cells.
 
 3.	Actions:
 
@@ -25,7 +25,7 @@ The goal state is reached when the Sudoku puzzle is solved. In the solved state,
 6.	Search Algorithm:
 
 The code uses a recursive backtracking search algorithm to explore the state space systematically.
-The algorithm tries different numbers in empty cells, backtracks when it encounters a contradiction, and continues until a solution is found or all possibilities are exhausted.
+The algorithm tries different numbers in empty cells, backtracks when encountering a contradiction, and continues until a solution is found or all possibilities are exhausted.
 
 7.	Backtracking:
 
